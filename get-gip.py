@@ -1,5 +1,5 @@
 import requests
 
 
-def getGlovalIp():
+def getGlobalIp():
     return requests.get("http://inet-ip.info/ip").text
